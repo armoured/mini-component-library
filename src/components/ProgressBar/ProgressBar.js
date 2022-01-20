@@ -50,6 +50,7 @@ const ProgressBar = ({ value, size }) => {
         aria-valuenow={progress}
         aria-valuemin="0"
         aria-valuemax="100"
+        aria-valuetext={`${progress}%`}
         size={SIZES.container[size]}
       >
         <Bar 
